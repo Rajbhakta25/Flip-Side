@@ -1,27 +1,33 @@
-Raj you can do this :D
-
-
-Skeleton:
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Set the page name to the html file name -->
     <title>Flip-Side | Game</title>
-    <link rel="stylesheet" href="../css/style.css">
-
+    <link rel="stylesheet" href="../css/game.css">
 </head>
 
 <body>
     <div class="app-container">
-        <h1>Header</h1>
-        <button id="buttonID">Button</button>
+        <h1>Color Sequence Game</h1>
+        <div id="colorButtons">
+            <div class="color-box" id="Red"></div>
+            <div class="color-box" id="Yellow"></div>
+            <div class="color-box" id="Blue"></div>
+            <div class="color-box" id="Green"></div>
+        </div>
 
+        <div id="gameInfo">
+            <p id="score">Score: 0</p>
+            <p id="level">Level: 1</p>
+        </div>
+
+        <button id="resetButton">Reset Game</button>
+        <button id="back-btn">Back</button>
     </div>
-    <!-- Script must be Initialized AFTER the page is built-->
-    <script src="../javascript/script.js"></script>
+
+    <script src="../javascript/game.js"></script>
 </body>
 
 </html>

@@ -6,7 +6,9 @@ document.getElementById("help").onclick = function () {
     window.location.href = "help.html";
 };
 
-
+document.getElementById("title-btn").onclick = function () {
+    window.location.href = "login.html";
+};
 
 
 // DO NOT REMOVE ANYTHING FROM LINE 5

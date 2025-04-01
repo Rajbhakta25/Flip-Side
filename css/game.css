@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6d9773;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0C3B2E;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.app-container {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+#Red {
+    background-color: red;
+}
+
+#Yellow {
+    background-color: yellow;
+}
+
+#Blue {
+    background-color: blue;
+}
+
+#Green {
+    background-color: green;
+}
+
+#gameInfo {
+    margin-top: 20px;
+}
+
+#score,
+#level {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+#resetButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
