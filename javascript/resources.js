@@ -25,7 +25,7 @@ async function findResource() {
         resultElement.innerText = data[zipCode] || "No resource found for this ZIP code.";
         document.getElementById("zipInput").style.display = "none";
         document.getElementById("enter-btn").style.display = "none";
-        document.getElementById("zipMessage").style.display = "none";
+        document.getElementById("zipMessage").textContent = ``;
 
     } catch (error) {
         console.error("Error loading resources:", error);

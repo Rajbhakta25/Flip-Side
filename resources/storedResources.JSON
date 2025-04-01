@@ -1,5 +1,6 @@
 {
-    "12345": "Food Bank A",
-    "67890": "Homeless Shelter B",
-    "54321": "Job Assistance C"
+    "zipcode": "name",
+    "12345": "TEST 1",
+    "67890": "TEST 2",
+    "54321": "TEST 3"
 }

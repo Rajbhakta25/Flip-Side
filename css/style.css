@@ -44,6 +44,10 @@ button {
     margin-top: 20px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 button:hover {
     background-color: #061f18;
 }
