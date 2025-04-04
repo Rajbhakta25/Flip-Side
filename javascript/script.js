@@ -1,15 +1,21 @@
-document.getElementById("play").onclick = function () {
-    window.location.href = "game.html";
-};
+document.addEventListener("DOMContentLoaded", function () {
+    const playButton = document.getElementById('play');
+    const helpButton = document.getElementById('help');
+    const titleButton = document.getElementById('title-btn');
 
-document.getElementById("help").onclick = function () {
-    window.location.href = "help.html";
-};
 
-document.getElementById("title-btn").onclick = function () {
-    window.location.href = "login.html";
-};
+    playButton.addEventListener('click', function () {
+        window.location.href = '../html/game.html';
+    });
 
+    helpButton.addEventListener('click', function () {
+        window.location.href = '../html/help.html';
+    });
+
+    titleButton.addEventListener('click', function () {
+        window.location.href = '../html/index.html';
+    });
+});
 
 // DO NOT REMOVE ANYTHING FROM LINE 5
 //import { AppRegistry, View, Text, StyleSheet, TouchableHighlight, Alert, TextInput, ScrollView } from 'react-native';

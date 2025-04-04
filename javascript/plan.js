@@ -1,7 +1,12 @@
-document.getElementById("back-btn").onclick = function () {
-    window.location.href = "dashboard.html";
-};
+document.addEventListener("DOMContentLoaded", function () {
+    const calendarButton = document.getElementById('calendar-btn');
+    const backButton = document.getElementById('back-btn');
 
-document.getElementById("calendar-btn").onclick = function () {
-    //Will eventually change text box to calendar ?!
-};
+    calendarButton.addEventListener('click', function () {
+        window.location.href = '..html/calendar.html';
+    });
+
+    backButton.addEventListener('click', function () {
+        window.location.href = '..html/dashboard.html';
+    });
+});

@@ -1,7 +1,12 @@
-document.getElementById("back-btn").onclick = function () {
-    window.location.href = "index.html";
-};
+document.addEventListener("DOMContentLoaded", function () {
+    const chatButton = document.getElementById('chat-btn');
+    const backButton = document.getElementById('back-btn');
 
-document.getElementById("chat-btn").onclick = function () {
-    window.location.href = "chat.html";
-};
+    chatButton.addEventListener('click', function () {
+        window.location.href = '..html/chat.html';
+    });
+
+    backButton.addEventListener('click', function () {
+        window.location.href = '..html/index.html';
+    });
+});

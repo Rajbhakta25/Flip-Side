@@ -5,3 +5,163 @@
     "87505": "Santa Fe:\n-----------\n\n Esperanza Shelter: \n\n(24/7):505-473-5200 \n3130 Rufina St, Santa Fe, NM\n-----------\n\nHaven House:\n\nNumber:(505)-896-4869\nAddress is not listed for safety reasons.\n\n This list of shelters and help centers is NOT final. More may become available as time goes on.",
     "87507": "Santa Fe:\n-----------\n\n Esperanza Shelter: \n\n(24/7):505-473-5200 \n3130 Rufina St, Santa Fe, NM\n-----------\n\nHaven House:\n\nNumber:(505)-896-4869\nAddress is not listed for safety reasons.\n\n This list of shelters and help centers is NOT final. More may become available as time goes on."
 }
+
+"resources": [
+    {
+        "zip_code": "87501",
+        "city": "Santa Fe",
+        "resources": [
+            {
+                "name": "New Mexico Coalition Against Domestic Violence",
+                "type": "Domestic Violence Support",
+                "address": "PO Box 1235, Santa Fe, NM 87504",
+                "phone": "(505) 246-9240",
+                "website": "https://www.nmcadv.org/",
+                "description": "Provides statewide advocacy, education, and support for survivors of domestic violence."
+            },
+            {
+                "name": "Casa de Esperanza",
+                "type": "Domestic Violence Shelter",
+                "address": "2130 Siler Rd, Santa Fe, NM 87507",
+                "phone": "(505) 473-5200",
+                "website": "https://www.casadeesperanza.org/",
+                "description": "A safe shelter for survivors of domestic violence offering confidential services, advocacy, and counseling."
+            },
+            {
+                "name": "La Familia Medical Center",
+                "type": "Healthcare / Domestic Violence Support",
+                "address": "1035 Alto St, Santa Fe, NM 87501",
+                "phone": "(505) 986-9562",
+                "website": "https://www.lafamiliacc.org/",
+                "description": "Provides healthcare services and support for survivors of domestic violence, including counseling and advocacy."
+            }
+        ]
+    },
+    {
+        "zip_code": "87102",
+        "city": "Albuquerque",
+        "resources": [
+            {
+                "name": "Albuquerque Family Advocacy Center",
+                "type": "Domestic Violence Support",
+                "address": "625 Silver Ave SW, Albuquerque, NM 87102",
+                "phone": "(505) 841-9030",
+                "website": "https://www.familyadvocacycenter.org/",
+                "description": "Offers a coordinated response to families in crisis, including services for victims of domestic violence."
+            },
+            {
+                "name": "Safehouse",
+                "type": "Domestic Violence Shelter",
+                "address": "PO Box 2160, Albuquerque, NM 87103",
+                "phone": "(505) 766-7233",
+                "website": "https://www.safehousenm.org/",
+                "description": "Provides emergency shelter, advocacy, and legal services for survivors of domestic violence."
+            },
+            {
+                "name": "New Mexico Legal Aid - Domestic Violence Program",
+                "type": "Legal Assistance",
+                "address": "500 Marquette Ave NW, Suite 600, Albuquerque, NM 87102",
+                "phone": "(505) 243-7871",
+                "website": "https://www.nmlab.org/",
+                "description": "Provides free legal assistance to victims of domestic violence for protective orders, custody issues, and more."
+            }
+        ]
+    },
+    {
+        "zip_code": "88001",
+        "city": "Las Cruces",
+        "resources": [
+            {
+                "name": "La Casa, Inc.",
+                "type": "Domestic Violence Shelter",
+                "address": "204 W. Bowman Ave., Las Cruces, NM 88005",
+                "phone": "(575) 523-2675",
+                "website": "https://www.lacasainc.org/",
+                "description": "A comprehensive service provider for domestic violence survivors offering emergency shelter, legal advocacy, and counseling."
+            },
+            {
+                "name": "DONA Ana County Domestic Violence Task Force",
+                "type": "Domestic Violence Support",
+                "address": "PO Box 1184, Las Cruces, NM 88004",
+                "phone": "(575) 647-9297",
+                "website": "https://www.donaanacounty.org/dv",
+                "description": "Provides support, advocacy, and resources for domestic violence victims in Dona Ana County."
+            },
+            {
+                "name": "Crisis Center of Southern New Mexico",
+                "type": "Domestic Violence Support",
+                "address": "320 N. Main St, Las Cruces, NM 88001",
+                "phone": "(575) 526-9513",
+                "website": "https://www.ccsnm.org/",
+                "description": "Provides emergency shelter, counseling, and legal services for victims of domestic violence and sexual assault."
+            }
+        ]
+    },
+    {
+        "zip_code": "87544",
+        "city": "Espanola",
+        "resources": [
+            {
+                "name": "Northern New Mexico Family Justice Center",
+                "type": "Domestic Violence Support",
+                "address": "1987 N. Riverside Dr., Espanola, NM 87532",
+                "phone": "(505) 753-2273",
+                "website": "https://www.northernfamilyjusticecenter.org/",
+                "description": "Offers a coordinated response to victims of domestic violence, including legal aid, shelter, and counseling."
+            },
+            {
+                "name": "Santa Clara Pueblo Domestic Violence Program",
+                "type": "Domestic Violence Support",
+                "address": "107 Avenida de Gema, Espanola, NM 87532",
+                "phone": "(505) 753-7326",
+                "website": "https://www.santaclarapueblo.org/",
+                "description": "Supports victims of domestic violence in the Santa Clara Pueblo with advocacy, shelter, and legal services."
+            }
+        ]
+    },
+    {
+        "zip_code": "87505",
+        "city": "Santa Fe",
+        "resources": [
+            {
+                "name": "Youth Shelter & Family Services",
+                "type": "Domestic Violence Support / Youth Services",
+                "address": "1000 Old Pecos Trail, Santa Fe, NM 87505",
+                "phone": "(505) 983-0586",
+                "website": "https://www.youthshelterandfamilyservices.org/",
+                "description": "Provides shelter and services to youth and families affected by domestic violence and crisis situations."
+            },
+            {
+                "name": "Santa Fe Rape Crisis and Trauma Recovery Center",
+                "type": "Domestic Violence and Sexual Assault Support",
+                "address": "1025 E. Alameda St, Santa Fe, NM 87501",
+                "phone": "(505) 428-0892",
+                "website": "https://www.sfrcc.org/",
+                "description": "Provides support for survivors of domestic violence and sexual assault, including counseling and legal advocacy."
+            }
+        ]
+    },
+    {
+        "zip_code": "87109",
+        "city": "Albuquerque",
+        "resources": [
+            {
+                "name": "Joy Junction",
+                "type": "Homeless Shelter and Domestic Violence Support",
+                "address": "4500 2nd St SW, Albuquerque, NM 87105",
+                "phone": "(505) 877-6967",
+                "website": "https://www.joyjunction.org/",
+                "description": "Offers a safe shelter for individuals affected by domestic violence, as well as other resources like food and clothing."
+            },
+            {
+                "name": "The Healing Center",
+                "type": "Domestic Violence Support / Counseling",
+                "address": "2001 Mountain Rd NW, Albuquerque, NM 87104",
+                "phone": "(505) 242-0185",
+                "website": "https://www.healingcenternm.org/",
+                "description": "Provides confidential counseling and support groups for survivors of domestic violence."
+            }
+        ]
+    }
+]
+}
