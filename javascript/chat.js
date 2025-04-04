@@ -1,3 +1,7 @@
-document.getElementById("back-btn").onclick = function () {
-    window.location.href = "help.html";
-};
+document.addEventListener("DOMContentLoaded", function () {
+    const backButton = document.getElementById('back-btn');
+
+    backButton.addEventListener('click', function () {
+        window.location.href = '..html/help.html';
+    });
+});

@@ -1,7 +1,12 @@
-document.getElementById("resourceSearch-btn").onclick = function () {
-    window.location.href = "resources.html";
-};
+document.addEventListener("DOMContentLoaded", function () {
+    const resourceSearchButton = document.getElementById('resourceSearch-btn');
+    const planButton = document.getElementById('plan-btn');
 
-document.getElementById("plan-btn").onclick = function () {
-    window.location.href = "plan.html";
-};
+    resourceSearchButton.addEventListener('click', function () {
+        window.location.href = '..html/resources.html';
+    });
+
+    planButton.addEventListener('click', function () {
+        window.location.href = '..html/plan.html';
+    });
+});
