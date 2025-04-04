@@ -3,7 +3,7 @@ document.getElementById("plan-btn").onclick = function () {
 };
 
 document.getElementById("back-btn").onclick = function () {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 };
 
 document.getElementById("resourceSearch-btn").onclick = function () {

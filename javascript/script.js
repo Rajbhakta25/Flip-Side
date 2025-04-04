@@ -5,16 +5,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     playButton.addEventListener('click', function () {
-        window.location.href = '/html/game.html';
+        window.location.href = '../html/game.html';
     });
 
     helpButton.addEventListener('click', function () {
-        window.location.href = '/html/help.html';
+        window.location.href = '../html/help.html';
     });
 
     titleButton.addEventListener('click', function () {
         //CHANGE TO LOGIN
-        window.location.href = '/html/dashboard.html';
+        window.location.href = '../html/dashboard.html';
     });
 });
 

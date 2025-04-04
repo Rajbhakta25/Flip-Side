@@ -14,7 +14,7 @@ function getRandomColor() {
 }
 
 document.getElementById("back-btn").onclick = function () {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 };
 
 // Function to flash a color box
