@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const backButton = document.getElementById('back-btn');
 
     chatButton.addEventListener('click', function () {
-        window.location.href = '..html/chat.html';
+        window.location.href = 'chat.html';
     });
 
     backButton.addEventListener('click', function () {
-        window.location.href = '..html/index.html';
+        window.location.href = 'index.html';
     });
 });

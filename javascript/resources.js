@@ -1,4 +1,5 @@
 let addResources = false;
+let textboxVisible = true;
 
 document.getElementById("enter-btn").onclick = function () {
     //window.location.href = "resourceReturn.html";
@@ -24,8 +25,11 @@ async function newResource() {
     if (!inputZip) {
         returnResult.innerText = "Thank you for helping us grow our database. \nPlease enter ONLY the zipcode you will be adding to";
         addResources = true;
-    } else {
+    } else if (textboxVisible) {
         returnResult.innerText = "Please reload the page and keep the input box empty."
+        addResources = false;
+    } else {
+        window.location.href = "newResource.html";
         addResources = false;
     }
 }
@@ -46,13 +50,15 @@ async function findResource() {
                 document.getElementById("new-btn").style.display = "none";
                 document.getElementById("zipInput").style.display = "none";
                 document.getElementById("create-btn").style.display = "inline-block";
+                textboxVisible = false;
             } else {
                 resultElement.innerText = "No resource found for this ZIP code. Please select below if you would like to add more information.";
                 document.getElementById("new-btn").style.display = "none";
                 document.getElementById("zipInput").style.display = "none";
                 document.getElementById("create-btn").style.display = "inline-block";
+                textboxVisible = false;
             }
-            // newResource.html
+
         } else {
             resultElement.innerText = "Please enter a valid 5-digit ZipCode";
         }
@@ -72,6 +78,7 @@ async function findResource() {
             resultElement.innerText = data[zipCode] || "No resources found for this ZIP code.";
             document.getElementById("zipInput").style.display = "none";
             document.getElementById("enter-btn").style.display = "none";
+            textboxVisible = false;
             // Is this line needed?
             //            document.getElementById("zipMessage").textContent = ``;
 

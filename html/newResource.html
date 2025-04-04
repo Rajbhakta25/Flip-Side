@@ -16,6 +16,9 @@
         <h6 style="color:white;">insta:jonethanm</h6>
         <h3>---------------------------</h3>
         <h6 style="color:white;">boo</h6>
+        <input type="text" id="zipCodeInput" style="font-size:25px;" maxlength="30" size="20"
+            style="width:100px; height: 50px;" placeholder="Enter ZipCode...">
+        <br> <br>
         <input type="text" id="nameInput" style="font-size:25px;" maxlength="30" size="20"
             style="width:100px; height: 50px;" placeholder="Enter Resource Name...">
         <br> <br>
@@ -24,11 +27,13 @@
         <br> <br>
         <input type="text" id="phoneInput" style="font-size:25px;" maxlength="30" size="20"
             style="width:100px; height: 50px;" placeholder="Enter Phone Number...">
-        <p id="result"></p>
+        <p id="return"></p>
         <br> <br>
         <br>
         <button id="enter-btn">Enter</button>
         <button id="back-btn">Back</button>
+        <button id="newResourceConfirm-btn" style="display: none;">Yes</button>
+        <button id="newResourceDecline-btn" style="display: none;">No</button>
     </div>
     <!-- Script must be Initialized AFTER the page is built-->
     <script src="../javascript/newResource.js"></script>
