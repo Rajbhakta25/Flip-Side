@@ -5,3 +5,8 @@ document.getElementById("resourceSearch-btn").onclick = function () {
 document.getElementById("plan-btn").onclick = function () {
     window.location.href = "plan.html";
 };
+
+document.getElementById("back-btn").onclick = function () {
+    window.location.href = "index.html";
+};
+

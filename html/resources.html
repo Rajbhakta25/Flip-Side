@@ -13,12 +13,13 @@
 <body>
     <div class="app-container">
         <h1>Resource Search</h1>
-        <h3 id="zipMessage">Enter your zipcode</h3>
-        <input type="text" id="zipInput" placeholder="Enter ZIP code">
+        <input type="text" style="font-size:25px;" id="zipInput" maxlength="30" size="20"
+            style="width:100px; height: 50px;" placeholder="Enter ZIP code...">
         <p id="result"></p>
-        <button id="research-btn" class="hidden"> Search Again</button>
         <button id="enter-btn">Enter</button>
         <button id="back-btn">Back</button>
+        <button id="new-btn">Add New Resource</button>
+        <button id="create-btn" style="display: none;">Create new Resource</button>
     </div>
     <!-- Script must be Initialized AFTER the page is built-->
     <script src="../javascript/resources.js"></script>
