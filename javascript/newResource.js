@@ -18,6 +18,8 @@ document.getElementById("back-btn").onclick = function () {
 
 document.getElementById("newResourceConfirm-btn").onclick = function () {
     submitResource();
+    wait(5, seconds);
+    window.location.href = "resources.html";
 }
 
 document.getElementById("newResourceDecline-btn").onclick = function () {
@@ -33,8 +35,8 @@ function createNewResource() {
 
     const newResource = "-----------\n" + newName + "\n" + newPhoneNumber + "\n" + newAddress;
 
-    
-    results.innerText ="\n"+"Is this information correct?\n" + newZipCode + "\n" + newCityName + "\n" + newResource;
+
+    results.innerText = "\n" + "Is this information correct?\n" + newZipCode + "\n" + newCityName + "\n" + newResource;
     confirmQ = true;
     document.getElementById("enter-btn").style.display = "none";
     document.getElementById("back-btn").style.display = "none";
