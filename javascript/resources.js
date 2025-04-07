@@ -20,17 +20,8 @@ document.getElementById("create-btn").onclick = function () {
 async function newResource() {
     const inputZip = document.getElementById("zipInput").value.trim();
     const returnResult = document.getElementById("result");
-
-    if (!inputZip) {
-        returnResult.innerText = "Thank you for helping us grow our database. \nPlease enter ONLY the zipcode you will be adding to";
-        addResources = true;
-    } else if (textboxVisible) {
-        returnResult.innerText = "Please reload the page and keep the input box empty.";
-        addResources = false;
-    } else {
-        window.location.href = "newResource.html";
-        addResources = false;
-    }
+    window.location.href = "newResource.html";
+    addResources = false;
 }
 
 async function findResource() {

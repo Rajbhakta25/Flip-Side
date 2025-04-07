@@ -18,8 +18,6 @@ document.getElementById("back-btn").onclick = function () {
 
 document.getElementById("newResourceConfirm-btn").onclick = function () {
     submitResource();
-    wait(5, seconds);
-    window.location.href = "resources.html";
 }
 
 document.getElementById("newResourceDecline-btn").onclick = function () {
@@ -65,7 +63,7 @@ function submitResource() {
             .then(res => res.json())
             .then(data => {
                 alert("Resource successfully submitted! Thank you for helping those around you find safety");
-                console.log(data);
+                window.location.href = "resources.html";
             })
             .catch(err => {
                 console.error("Error submitting resource:", err);
