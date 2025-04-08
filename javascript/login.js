@@ -1,17 +1,21 @@
 document.getElementById('login-both').onclick = function () {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('error-message');
+    const inputPassword = document.getElementById('passwordInput').value.trim();
 
-    const validCredentials = {
-        username: "pi",
-        password: "pi"
-    };
+    const savedPassword = localStorage.getItem("userPassword");
 
-    if (username === validCredentials.username && password === validCredentials.password) {
+    if (inputPassword === savedPassword) {
         window.location.href = "../html/dashboard.html";
     } else {
-        errorMessage.innerHTML = "Invalid username or password.";
-        errorMessage.style.color = "red";        
+        errorMessage.innerHTML = "Invalid password.";
+        errorMessage.style.color = "red";
     }
+
 };
+
+
+document.getElementById("back-btn").onclick = function () {
+    window.location.href = "../index.html";
+};
+
+// If the log in required a password, try 12345. if not, set it

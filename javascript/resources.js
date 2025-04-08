@@ -38,13 +38,9 @@ async function findResource() {
         console.log("Response Status:", response.status);
 
         if (!response.ok) throw new Error("Failed to load resources.");
-
         const data = await response.json();
         console.log("Data from SheetBest:", data);
-
-        // Find the resource that matches the entered ZIP code
         const resource = data.find(item => item["Zip Code"].toString().trim() === zipCode);
-
         const matches = data.filter(item => item["Zip Code"].toString().trim() === zipCode);
 
         if (matches.length > 0) {
@@ -56,12 +52,9 @@ async function findResource() {
         } else {
             resultElement.innerText = "No resources found for this ZIP code.";
         }
-
-
         document.getElementById("zipInput").style.display = "none";
         document.getElementById("enter-btn").style.display = "none";
         textboxVisible = false;
-
     } catch (error) {
         console.error("Error loading resources:", error);
         resultElement.innerText = "Error loading resources. Please make sure the ZipCode is 5 digits.";

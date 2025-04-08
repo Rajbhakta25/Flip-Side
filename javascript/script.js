@@ -3,18 +3,27 @@ document.addEventListener("DOMContentLoaded", function () {
     const helpButton = document.getElementById('help');
     const titleButton = document.getElementById('title-btn');
 
+    const savedGame = localStorage.getItem("gameName");
+
+    if (!localStorage.getItem("gameName")) {
+        localStorage.setItem("gameName", "3x3");
+    }
 
     playButton.addEventListener('click', function () {
-        window.location.href = 'html/game.html';
+        if (savedGame === "3x3") {
+            window.location.href = '../html/3x3.html';
+        } else if (savedGame === "simon") {
+            window.location.href = '../html/game.html';
+        }
     });
 
     helpButton.addEventListener('click', function () {
-        window.location.href = 'html/help.html';
+        window.location.href = '../html/help.html';
     });
 
     titleButton.addEventListener('click', function () {
         //CHANGE TO LOGIN
-        window.location.href = 'html/dashboard.html';
+        window.location.href = '../html/login.html';
     });
 });
 

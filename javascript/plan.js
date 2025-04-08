@@ -1,12 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const calendarButton = document.getElementById('calendar-btn');
-    const backButton = document.getElementById('back-btn');
+    const planBox = document.getElementById("Plan");
+    const savedPlan = localStorage.getItem("userPlan");
 
-    calendarButton.addEventListener('click', function () {
-        window.location.href = '/html/calendar.html';
+    if (savedPlan) {
+        planBox.value = savedPlan;
+    }
+
+    planBox.addEventListener("input", function () {
+        localStorage.setItem("userPlan", planBox.value);
     });
 
-    backButton.addEventListener('click', function () {
-        window.location.href = '/html/dashboard.html';
-    });
+    document.getElementById("back-btn").onclick = function () {
+        window.location.href = "../html/dashboard.html";
+    };
+
+    document.getElementById("calendar-btn").onclick = function () {
+        window.location.href = "../html/calendar.html";
+    };
 });
