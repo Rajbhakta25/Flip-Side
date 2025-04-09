@@ -23,9 +23,9 @@ function changeGame() {
 
     if (current === "3x3") {
         localStorage.setItem("gameName", "simon");
+        alert("Game set to simon");
     } else {
         localStorage.setItem("gameName", "3x3");
+        alert("Game set to 3x3");
     }
-
-    alert("Game set to " + current);
 }
